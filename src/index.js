@@ -6,6 +6,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const name = "Saikeerthi";
+const num = 7;
+
 ReactDOM.render(
   <div>
     <h1>My Favourite Foods</h1>
@@ -14,6 +17,10 @@ ReactDOM.render(
       <li>Jamon</li>
       <li>Noodles</li>
     </ul>
+    <div>
+      <h1>Hello {name}</h1>
+      <p>Your lucky number is {num}</p>
+    </div>
   </div>,
   document.getElementById("root")
 );
