@@ -19,7 +19,7 @@ ReactDOM.render(
     </ul>
     <div>
       <h1>Hello {name}</h1>
-      <p>Your lucky number is {num}</p>
+      <p>Your lucky number is {Math.floor(Math.random() * 10)}</p>
     </div>
   </div>,
   document.getElementById("root")
