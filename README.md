@@ -1,2 +1,2 @@
-# JSX
+# JSX-Babel
 Created with CodeSandbox
