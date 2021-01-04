@@ -10,6 +10,11 @@ const fname = "Saikeerthi";
 const lname = "Jupally";
 const num = 7;
 const img = "https://picsum.photos/200";
+const customStyle = {
+  color: "green",
+  fontSize: "20px",
+  border: "1px solid black"
+};
 
 ReactDOM.render(
   <div>
@@ -22,7 +27,7 @@ ReactDOM.render(
       <li>Noodles</li>
     </ul>
     <div>
-      <h1 className="heading">Hello {fname + " " + lname}!</h1>
+      <h1 style={customStyle}> Hello {fname + " " + lname}!</h1>
       <p>Your lucky number is {Math.floor(Math.random() * 10)}</p>
     </div>
     <div>
